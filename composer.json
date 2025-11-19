@@ -1,0 +1,27 @@
+{
+    "name": "quadruphp/file-logger",
+    "type": "library",
+    "license": "MIT",
+    "description": "file-logger is an PSR-3 Logger for write log in log file",
+    "minimum-stability": "dev",
+    "keywords": [
+        "psr-3",
+        "logger"
+    ],
+    "authors": [
+        {
+            "name": "Christophe DALOZ - DE LOS RIOS",
+            "email": "christophedlr@gmail.com",
+            "homepage": "https://github.com/Christophedlr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QuadruPHP\\FileLogger\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">8.1.*",
+      "psr/log": "^3.0"
+    }
+}
