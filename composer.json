@@ -4,6 +4,7 @@
     "license": "MIT",
     "description": "file-logger is an PSR-3 Logger for write log in log file",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "keywords": [
         "psr-3",
         "logger"
@@ -21,7 +22,7 @@
         }
     },
     "require": {
-      "php": ">8.1.*",
+      "php": ">=8.1",
       "psr/log": "^3.0"
     }
 }
